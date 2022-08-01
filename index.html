@@ -13,16 +13,21 @@
   <title>home</title>
 </head>
 <body>
+    <style>
+        html{
+    scroll-behavior: smooth;
+}
+    </style>
     <!-----navigation bar-->
-    <section class="header">
+    <section class="header" id="header">
         <nav>
             <a href="#home"><img src="/img/ios2.png" alt="ayatraders logo" width="150px" height="50px"></a>
             <div class="nav-links">
             <ul>
-                
-                <li><a href="">ABOUT US</a></li>
-                <li ><a href="">PROJECTS</a></li>
-                <li><a href="">CONTACT US</a></li>
+            
+                <li><a href="#about">ABOUT US</a></li>
+                <li ><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
                 <li class="toggle"><spand class="bars"></spand></li>
                
               </ul>
@@ -30,9 +35,9 @@
             </div>
             <div class="humburger">
                 <div class="line1"></div>
-              <div class="line2"></div>
-              <div class="line3"></div>
-          </div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
         </nav>
         <div class="text-box">
             <p>
@@ -42,7 +47,7 @@
     </section>
     <!----about---->
     <section class="about" id="about">
-        <div class="about-img">
+        <div class="about-img" col-4 md-8>
             <img src="/img/ios3.png" alt="ios image">
         </div>
         <div class="about-text">
@@ -63,7 +68,7 @@
     
  </section>
  <!----project-->
-<section class="project-module" id="projects">
+<section class="project-module" id="projects" col-4 md-8>
     <div class="container">
         <h1  style=" color: #ffde17;
         font-size: 1rem;
@@ -144,11 +149,11 @@
                       <img src="/img/Frame 12.png " alt="" style="transform: translate(0rem, 0px);"sizes="" srcset="">
                 </div>
                 <div class="slide-images2">
-                    <img src="/img/Frame 11.png " alt="" sizes="100" srcset="" height="282" width="483">
+                    <img src="/img/Frame 11.png " alt="" sizes="50" srcset="" height="282" width="483">
               </div>
               <div class="slide-images3">
-                <img src="/img/Frame 13.png" alt="" sizes="100" srcset="">
-            </div>
+                <img src="/img/Frame 16.png " alt="" sizes="50" srcset="" height="282" width="503">
+          </div>
            
             </div>
         </section>
@@ -156,7 +161,7 @@
 
 <section class="contact" id="contact">
     
-    <div class="container">
+    <div class="container" id="contact" >
         <h5>contact us</h5>
         <div class="form">
         <form method="" action="" id="contact">
@@ -176,16 +181,16 @@
 </form>
     </div>
         </div>
-        <div class="footer-model">
+        <div class="footer-model" id="footer">
             
-            <div class="footer-container">
+            <div class="footer-container" id="footer">
                 <footer class="footer-section">
                     <img src="/img/ios2.png" alt="ayatraders logo">
                     <nav>
-                        <a href="home.html">Home</a>
-                        <a href="project.html">Projects</a>
-                        <a href="contact.html">Contact us</a>
-                        <a href="ayatraders.html">About Aya Trades</a>
+                       
+                        <a href="#projects">Projects</a>
+                        <a href="#contact">Contact us</a>
+                        <a href="#about">About Aya Trades</a>
                     </nav>
                 </footer>
             </div>
