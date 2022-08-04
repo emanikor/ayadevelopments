@@ -5,10 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="/css/main.css">
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
   <script src="https://kit.fontawesome.com/dd06602d3d.js" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/dd06602d3d.js" crossorigin="anonymous"></script>
-  <script src="https://kit.fontawesome.com/dd06602d3d.js" crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap">
   <title>home</title>
 </head>
 <body>
@@ -20,34 +18,31 @@
     <!-----navigation bar-->
     <section class="header" id="header">
         <nav>
-            <a href="#home"><img src="/img/ios2.png" alt="ayatraders logo" width="150px" height="50px"></a>
+            <a href="index.html"><img src="/img/ios2.png" alt="ayatraders logo" width="150px" height="50px"></a>
             <div class="nav-links">
-            <ul>
+            <ul id="side-menu">
             
-                <li><a href="#about">ABOUT US</a></li>
+                <li><a href="#about">ABOUT US</a></li> 
                 <li ><a href="#projects">PROJECTS</a></li>
                 <li><a href="#contact">CONTACT US</a></li>
-                <li class="toggle"><spand class="bars"></spand></li>
+                <i class="fa-solid fa-bars"></i>
+                 
                
               </ul>
-             
+              <i class="fa-solid fa-x"></i>
             </div>
-            <div class="humburger">
-                <div class="line1"></div>
-                <div class="line2"></div>
-                <div class="line3"></div>
-            </div>
+           
         </nav>
         <div class="text-box">
-            <p>
+            <p >
                 Non-pixelated.custom-built.VR-Ready. Crafting  Themed Spaces for the Metaverse
             <p>
         </div>
     </section>
     <!----about---->
     <section class="about" id="about">
-        <div class="about-img" col-4 md-8>
-            <img src="/img/ios3.png" alt="ios image">
+        <div class="about-img">
+            <img src="/img/ios3.png" alt="ios image"class="image-1">
         </div>
         <div class="about-text">
          <h1>Who Are We</h1>
@@ -55,7 +50,7 @@
                 We are a team of<span> meta-architects </span>working on the <br>
                 future of the metaverse. Our aim is to integrate<br> 
                 high-end architectural design into unique <br>
-                landscapes to create an immersive parallel world.<br> 
+                landscapes to create an immersive parallel wrtgsorld.<br> 
                 Our themed spaces allow you to give free rein to <br>
                 your imagination, as limitations are few, and <br>
                 anything is possible. From business hubs to play<br> 
@@ -67,7 +62,7 @@
     
  </section>
  <!----project-->
-<section class="project-module" id="projects" col-4 md-8>
+<section class="project-module" id="projects" >
     <div class="container">
         <h1  style=" color: #ffde17;
         font-size: 1rem;
@@ -184,7 +179,7 @@
             
             <div class="footer-container" id="footer">
                 <footer class="footer-section">
-                    <img src="/img/ios2.png" alt="ayatraders logo">
+                    <a href="index.html"><img src="/img/ios2.png" alt="ayatraders logo"></a>
                     <nav>
                        
                         <a href="#projects">Projects</a>
